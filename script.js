@@ -167,7 +167,7 @@ symbolicListDiv.appendChild(symbolicList);
 const myInfo = document.createElement("p");
 const github = document.createElement("a")
 myInfo.innerHTML = "20243080 서솔빈";
-github.href = "https://www.naver.com";
+github.href = "https://github.com/pineconekr/emptyDeduction_js";
 github.innerHTML = "Github 방문하기";
 github.style.textDecoration = "solid underline purple 4px";
 
