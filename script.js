@@ -165,7 +165,7 @@ symbolicListDiv.appendChild(symbolicList);
 
 
 const myInfo = document.createElement("p");
-const github = document.createElement("a")
+const github = document.createElement("a");
 myInfo.innerHTML = "20243080 서솔빈";
 github.href = "https://github.com/pineconekr/emptyDeduction_js";
 github.innerHTML = "Github 방문하기";
@@ -181,5 +181,5 @@ document.body.appendChild(form2);
 document.body.appendChild(primaryListDiv);
 document.body.appendChild(form3);
 document.body.appendChild(symbolicListDiv);
-document.body.appendChild(studentInfo);
+document.body.appendChild(myInfo);
 document.body.appendChild(github);
