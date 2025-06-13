@@ -36,7 +36,7 @@ compoundList.type = "1";
 compoundList.id = "compound-list";
 compoundListDiv.appendChild(compoundList);
 
-// 단순명제 입력 폼
+// 단순명제
 const form2 = document.createElement("form");
 form2.action = "#";
 
@@ -59,7 +59,7 @@ primaryList.type = "A";
 primaryList.id = "primary-list";
 primaryListDiv.appendChild(primaryList);
 
-// 기호명제 입력 폼
+// 기호명제
 const form3 = document.createElement("form");
 form3.action = "#";
 
@@ -164,11 +164,12 @@ symbolicList.id = "symbolic-list";
 symbolicListDiv.appendChild(symbolicList);
 
 
-const studentInfo = document.createElement("p");
+const myInfo = document.createElement("p");
 const github = document.createElement("a")
-studentInfo.innerHTML = "20243080 서솔빈";
+myInfo.innerHTML = "20243080 서솔빈";
 github.href = "https://www.naver.com";
 github.innerHTML = "Github 방문하기";
+github.style.textDecoration = "solid underline purple 4px";
 
 // 모든 요소를 body에 추가
 document.body.appendChild(h1);
